@@ -310,7 +310,7 @@ nmap <C-T> :TerminalTab bash<CR>
 "
 " hexeditor
 NeoBundle 'Shougo/vinarise'
-let g:vinarise_enable_auto_detect = 1
+" let g:vinarise_enable_auto_detect = 1
 "
 " vim-bookmarks
 NeoBundle 'MattesGroeger/vim-bookmarks'
