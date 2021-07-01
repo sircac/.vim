@@ -281,6 +281,11 @@ let g:NERDTreeDirArrowCollapsible = '▾'
 let NERDTreeShowHidden=1
 let NERDTreeQuitOnOpen=1
 nmap º :NERDTreeToggle<CR>
+" enable line numbers               
+let NERDTreeShowLineNumbers=1       
+" make sure relative line numbers are used
+autocmd FileType nerdtree setlocal relativenumber
+let NERDTreeMapActivateNode = 'l' 
 " :Bookmark <name>
 " B -> show NERDTree bookmarks
 " D -> delete NERDTree bookmark
