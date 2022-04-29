@@ -364,6 +364,9 @@ NeoBundle 'salsifis/vim-transpose'
 " https://github.com/JuliaEditorSupport/julia-vim
 NeoBundle 'JuliaEditorSupport/julia-vim'
 imap º \
+" to toggle latex<->unicode:
+" noremap <expr> <F7> LaTeXtoUnicode#Toggle()
+" noremap! <expr> <F7> LaTeXtoUnicode#Toggle()
 "
 " easymotion
 NeoBundle 'easymotion/vim-easymotion' " Configured later...
