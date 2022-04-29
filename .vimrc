@@ -360,10 +360,10 @@ NeoBundle 'salsifis/vim-transpose'
 " check: https://vi.stackexchange.com/questions/625/how-do-i-use-vim-as-a-diff-tool
 " check: https://github.com/will133/vim-dirdiff
 "
-" julia support                                                                                                                                                                                                  
-NeoBundle 'JuliaEditorSupport/julia-vim'
+" julia support
 " https://github.com/JuliaEditorSupport/julia-vim
-imap º \ 
+NeoBundle 'JuliaEditorSupport/julia-vim'
+imap º \
 "
 " easymotion
 NeoBundle 'easymotion/vim-easymotion' " Configured later...
