@@ -90,11 +90,14 @@ nmap U :redo<CR>
 "
 " ¡ -> / pattern search (*)
 " ¿ -> :s (current line) :%s (whole file) foo/bar/g (*)
+" ...also with VISUAL selected text
 "      /foo/bar/c -> confirm on each replacement
 " n/N -> next/previous finding
-map ¡ /
 nnoremap <Leader><space> :let @/=""<cr>
+map ¡ /
 map ¿ :%s/
+vnoremap ¡ y:/<C-r>"                                                                                                                    
+vnoremap ¿ y:%s/<C-r>"/
 "
 " VISUAL mode:
 "         v -> char
